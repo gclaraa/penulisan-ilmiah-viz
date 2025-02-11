@@ -19,7 +19,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
- 
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
@@ -64,7 +65,7 @@
       <div class="container">
         <div class="row gy-4">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
-            <h1>Visualisasi Data Banjir DKI Jakarta Tahun 2023</h1>
+            <h1>Visualisasi Data Banjir DKI Jakarta</h1>
             
           </div>
           <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
@@ -101,46 +102,45 @@
                 </div>
                 <section class="insight-grid">
                     <article class="c">
-                        <label for="insight0" id="myChart"><b>KEJADIAN SETIAP BULAN</b></label>
-                        <img src="assets/img/jumlah-kejadian.png" alt="Chart 1">
-                        <p>Banjir dengan frekuensi tertinggi 
-                          terjadi pada bulan Febuari  
-                          dengan total 50 kejadian kemudian bulan Maret diposisi kedua 
-                          dengan total 24 kejadian
+                        <label for="insight0" id="myChart"><b>TOTAL KEJADIAN SETIAP BULAN</b></label>
+                        <img src="assets/img/total-kejadian.png" alt="Chart 1">
+                        <p>Puncak kejadian banjir terjadi pada bulan Januari 2024
+                           dengan total 101 kejadian yang menunjukkan tingginya frekuensi terjadi banjir.
+                           Kecenderungan peningkatan kejadian banjir terjadi 
+                           pada akhir tahun hingga awal tahun berikutnya.
                         <p>
                         
                     </article>
 
                     <article class="c1">
-                      <label for="insight1" id="myChart"><b>KEJADIAN SETIAP WILAYAH</b> </label>
-                      <img src="assets/img/kejadian-wilayah-1.png" alt="Chart 2">
-                      <p>Kota Jakarta Selatan menjadi wilayah 
-                        yang rentan banjir dengan 60 kejadian, diikuti Kota Jakarta
-                        Timur dengan jumlah 41 kali terjadi banjir
+                      <label for="insight1" id="myChart"><b>FREKUENSI KEJADIAN SETIAP WILAYAH</b> </label>
+                      <img src="assets/img/frekuensi.png" alt="Chart 2">
+                      <p>Jakarta Selatan merupakan wilayah yang memiliki 
+                        jumlah kejadian tertinggi dibandingkan wilayah lain di Jakarta. 
+                        Setelah Jakarta Selatan, diikuti Jakarta Timur dan 
+                        Jakarta Barat yang memiliki jumlah kejadian banjir yang cukup tinggi.
                       <p>
                       
                   </article>
+                  <article class="c2">
+                    <label for="insight2"  id="myChart"><b>KETINGGIAN MAKSIMUM SETIAP WILAYAH</b></label>
+                    <img src="assets/img/risiko.png" alt="Chart 3">
+                     <p>Jakarta Timur merupakan wilayah yang paling 
+                      berisiko atau paling parah terkena banjir dengan ketinggian maksimum air adalah 280 cm
+                       dan Jakarta Pusat menjadi wilayah yang memiliki 
+                       risiko rendah dengan ketinggian air maksimum adalah 30 cm.
+                     <p>
+                </article>
 
                   <article class="c3">
                     <label for="insight3"  id="myChart"><b>POPULASI TERDAMPAK</b></label>
-                    <img src="assets/img/populasi-1.png" alt="Chart 4">
-                      <p>Kota Jakarta Timur adalah wilayah 
-                        dengan populasi terdampak paling banyak, 
-                        yaitu 877 jiwa, jumlah ini sama dengan 
-                        52.5% dari total populasi terdampak 
-                        secara keseluruhan
+                    <img src="assets/img/populasi.png" alt="Chart 4">
+                      <p>Dengan presentasi lebih dari 40%, Jakarta Selatan dan Jakarta Timur adalah 
+                        wilayah yang penduduknya paling banyak terdampak dibandingkan wilayah lainnya, 
+                        diikuti wilayah Jakarta Barat dengan presentasi 10%. 
+                        Wilayah lain seperti Jakarta Utara dan Jakarta Pusat memiliki proporsi jiwa terdampak yang lebih rendah.
                          <p>
                 </article>
-
-                <article class="c2">
-                  <label for="insight2"  id="myChart"><b>RATA - RATA KETINGGIAN AIR</b></label>
-                  <img src="assets/img/avg.png" alt="Chart 3">
-                   <p>Kota Jakarta Timur dan Jakarta Selatan adalah wilayah 
-                    yang rata-rata ketinggian air dengan kapasitas 
-                    tertinggi mencapai lebih dari 45cm
-                   <p>
-              </article>
-                  
                    
 
                 </section>
